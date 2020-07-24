@@ -145,10 +145,6 @@ body {
   margin-right: 1rem;
 }
 
-.fab:hover {
-  transform: scale(1.1);
-}
-
 .share {
   visibility: hidden;
 }
@@ -180,17 +176,27 @@ body {
   .social p {
     font-size: 2rem;
   }
+
+  .arrow-button {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .fas {
+    font-size: 1.5rem;
+  }
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 1050px) {
   .container {
     border-radius: 0.75rem;
     flex-direction: row;
-    margin: 15% 15%;
+    margin: 15% 28%;
   }
 
   .content {
-    padding: 2% 5% 1%;
+    padding: 2% 5% 3%;
+
   }
 
   .image {
@@ -200,29 +206,30 @@ body {
   }
 
   .content h1 {
-    font-size: 2vw;
+    font-size: 1.2vw;
   }
 
   .content p {
-    font-size: 1.3vw;
+    font-size: 0.8vw;
+    margin-bottom: 2%;
   }
 
   .author-info p {
-    font-size: 1.5vw;
-    width: 15rem;
+    font-size: 0.8vw;
+    width: 10rem;
   }
 
   .author img {
-    width: 3.5rem;
-  }
-
-  .arrow-button {
-    height: 2rem;
     width: 2rem;
   }
 
+  .arrow-button {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
   .fas {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .social {
@@ -232,12 +239,12 @@ body {
     justify-content: flex-start;
     padding: 0;
     right: -13%;
-    top: 50%;
+    top: 45%;
     width: 40%;
   }
 
   .social p {
-    font-size: 1.5vw;
+    font-size: 0.8vw;
     padding-left: 0;
   }
 
@@ -251,12 +258,8 @@ body {
 
   .fab {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1rem;
     margin-right: 1rem;
-  }
-
-  .fab:hover {
-    transform: scale(1.1);
   }
 
   .share {
